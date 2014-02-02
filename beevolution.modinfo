@@ -1,0 +1,11 @@
+{
+    "name": "beevolution",
+    "version": "Beta v. Furious Koala",
+    "path": ".",
+    "dependencies": [],
+    "metadata": {
+        "author": "Arkandos",
+        "version": "Alpha 0.1",
+        "description": "BEES!",
+    }
+}

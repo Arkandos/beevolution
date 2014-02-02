@@ -1,0 +1,80 @@
+{
+  "objectName" : "beevolution_beehouse",
+  "rarity" : "Common",
+  "description" : "A beehouse, useful for beekeeping.",
+  "shortdescription" : "Beehouse",
+  "race" : "generic",
+  "subtitle" : "Good ol' beekeeping.",
+  "category" : "crafting",
+  "price" : 200,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "[PLACEHOLDER] something something bees",
+  "avianDescription" : "[PLACEHOLDER] something something bees",
+  "floranDescription" : "[PLACEHOLDER] something something bees",
+  "glitchDescription" : "[PLACEHOLDER] something something bees",
+  "humanDescription" : "[PLACEHOLDER] something something bees",
+  "hylotlDescription" : "[PLACEHOLDER] something something bees",
+
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "beehouseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "beehouse.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+
+  "recipeGroup" : "beehouse",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/beehouse.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
