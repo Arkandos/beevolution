@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_beequeen",
+  "rarity" : "Common",
+  "inventoryIcon" : "beequeen.png",
+  "description" : "A normal beequeen.",
+  "shortdescription" : "Bee Queen",
+  
+  "species1" : "forest",
+  "species2" : "forest"
+}
