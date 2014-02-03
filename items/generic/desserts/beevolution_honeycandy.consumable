@@ -1,0 +1,18 @@
+{
+  "itemName" : "beevolution_honeycandy",
+  "rarity" : "Common",
+  "inventoryIcon" : "candy.png",
+  "description" : "Hard candy filled with honey. It probably won't do much for me if I'm starving, but it sure is tasty.",
+  "shortdescription" : "Honeycandy",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 35
+      },
+      {
+        "kind" : "mollyhealing1" },
+      {
+        "kind" : "sugarrush" }
+    ] ]
+}

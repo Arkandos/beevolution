@@ -70,11 +70,12 @@
     }
   ],
 
-  "recipeGroup" : "beehouse",
+  "recipeGroup" : "beevolution_beehouse",
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
   "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/beehouse.config",
+  "uiConfig" : "/interface/objectcrafting/beevolution_beehouse.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
 
+  "learnBlueprintsOnPickup" : [ "beevolution_honeycomb", "beevolution_honeydrop", "beevolution_honeycandy" ]
 }
