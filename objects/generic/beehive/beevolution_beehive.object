@@ -1,0 +1,26 @@
+{
+  "objectName" : "beevolution_beehive",
+  "rarity": "Common",
+  "category" : "beehive",
+  
+  "description" : "Buzz buzz",
+  "shortdescription" : "Beehive",
+  "race" : "generic", 
+  
+  "inventoryIcon" : "beehive.png",
+  "orientations" : [
+    {
+	  "image" : "beehive.png:<color>",
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.5,
+	  
+	  "spaceScan" : 0.1,
+	  "anchors" : ["bottom"]
+	}
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "beevolution_beequeen", 1, {} ] ]
+  ]
+}

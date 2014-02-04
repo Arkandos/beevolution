@@ -1,0 +1,23 @@
+{
+  "__merge" : [],
+  "surfaceParameters" : {
+    "surfacePlaceables" : {
+	  "items" : [
+	    {
+	    "mode" : "floor",
+		"priority" : 3.0,
+		"variants" : 1,
+		"distribution" : "/biomes/distributions.config:superCommon",
+		
+		"type" : "object",
+		"objectSets" : [
+	      {
+		    "pool" : [ [0.35, "beevolution_beehive"] ],
+		    "parameters" : {}
+		  }
+	    ]
+	    }
+	  ]
+	}
+  }
+}

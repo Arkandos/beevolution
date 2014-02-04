@@ -3,5 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "honeydrop.png",
   "description" : "Delicious honey, in drops!",
-  "shortdescription" : "Honeydrop"
+  "shortdescription" : "Honeydrop",
+  
+  "fuelAmount" : 4
 }
