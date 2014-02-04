@@ -7,7 +7,7 @@
 	    "mode" : "floor",
 		"priority" : 3.0,
 		"variants" : 1,
-		"distribution" : "/biomes/distributions.config:superCommon",
+		"distribution" : "/biomes/distributions.config:potsRare",
 		
 		"type" : "object",
 		"objectSets" : [
