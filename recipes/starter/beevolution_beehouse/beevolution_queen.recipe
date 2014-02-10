@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "beevolution_beedrone", "count" : 1},
+	{ "item" : "beevolution_beeprincess", "count" : 1}
+  ],
+  "output" : {
+    "item" : "beevolution_beequeen",
+	"count" : 1
+  },
+  "groups" : [ "beevolution_beehouse" ]
+}
