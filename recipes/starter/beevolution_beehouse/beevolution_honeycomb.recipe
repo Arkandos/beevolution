@@ -1,10 +1,11 @@
 {
   "input" : [
-    { "item" : "darkwoodmaterial", "count" : 2 }
+    { "item" : "beevolution_queen", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 }
   ],
   "output" : {
     "item" : "beevolution_honeycomb",
-    "count" : 1
+    "count" : 3
   },
   "groups" : [ "beevolution_beehouse", "all" ]
 }
