@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenForest",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/queenGeneric.png",
+  "description" : "A queen of bees.",
+  "shortdescription" : "Forest Queen",
+  
+  "species1" : "forest",
+  "species2" : "forest"
+}

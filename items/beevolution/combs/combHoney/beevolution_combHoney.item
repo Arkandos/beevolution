@@ -1,7 +1,7 @@
 {
-  "itemName" : "beevolution_honeycomb",
+  "itemName" : "beevolution_combHoney",
   "rarity" : "Common",
-  "inventoryIcon" : "honeycomb.png",
+  "inventoryIcon" : "/items/beevolution/combs/genericComb.png",
   "description" : "Filled with delicious honey",
   "shortdescription" : "Honeycomb"
 }

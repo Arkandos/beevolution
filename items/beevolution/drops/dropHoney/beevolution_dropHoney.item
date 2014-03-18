@@ -1,7 +1,7 @@
 {
-  "itemName" : "beevolution_honeydrop",
+  "itemName" : "beevolution_dropHoney",
   "rarity" : "Common",
-  "inventoryIcon" : "honeydrop.png",
+  "inventoryIcon" : "/items/beevolution/drops/genericDrop.png",
   "description" : "Delicious honey, in drops!",
   "shortdescription" : "Honeydrop",
   

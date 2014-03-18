@@ -1,11 +1,11 @@
 {
     "name": "beevolution",
-    "version": "Beta v. Furious Koala",
+    "version": "Beta v. Enraged Koala",
     "path": ".",
     "dependencies": [],
     "metadata": {
         "author": "Arkandos",
-        "version": "Alpha 0.1",
+        "version": "Alpha 0.0.1",
         "description": "BEES!",
 		"support_url": "https://github.com/Brainless243/beevolution"
     }

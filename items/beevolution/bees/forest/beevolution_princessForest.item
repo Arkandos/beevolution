@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessForest",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/princessGeneric.png",
+  "description" : "A bee princess. Still dreaming about becoming queen",
+  "shortdescription" : "Forest princess",
+  
+  "species1" : "forest",
+  "species2" : "forest"
+}

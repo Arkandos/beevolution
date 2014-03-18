@@ -5,7 +5,7 @@
   "shortdescription" : "Beehouse",
   "race" : "generic",
   "subtitle" : "Good ol' beekeeping.",
-  "category" : "crafting",
+  "category" : "beehouse",
   "price" : 200,
   "objectType" : "container",
   "printable" : false,
@@ -69,11 +69,12 @@
       "range" : 8
     }
   ],
-
+  "scripts" : [ "/objects/beevolution/beehouse/beevolution_beehouse.lua" ],
+  "scriptDelta" : 5,
   "recipeGroup" : "beevolution_beehouse",
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
-  "slotCount" : 3,
-  "uiConfig" : "/interface/objectcrafting/beevolution_beehouse.config",
+  "slotCount" : 18,
+  "uiConfig" : "/interface/beevolution/beevolution_beehouse.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
