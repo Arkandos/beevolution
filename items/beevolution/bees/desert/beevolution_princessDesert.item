@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessDesert",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/desert/princessDesert.png",
+  "description" : "A bee princess. Still dreaming about becoming queen over the sandpeople",
+  "shortdescription" : "Desert princess",
+  
+  "species1" : "desert",
+  "species2" : "desert"
+}

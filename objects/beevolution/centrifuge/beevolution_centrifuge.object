@@ -1,0 +1,52 @@
+{
+  "objectName" : "beevolution_centrifuge",
+  "rarity" : "Common",
+  "description" : "A centrifuge. which uses the power of gravity!.",
+  "shortdescription" : "Modern centrifuge",
+  "race" : "generic",
+  "subtitle" : "Centrifugating.",
+  "category" : "centrifuge",
+  "price" : 400,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "beehouseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "centrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+  "scripts" : [ 
+  "/objects/beevolution/centrifuge/beevolution_centrifuge.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  "/scripts/beevolution/beevolution_machineList.lua"
+  ],
+  
+  "scriptDelta" : 20,
+  "recipeGroup" : "beevolution_centrifuge",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 18,
+  "uiConfig" : "/interface/beevolution/beevolution_beehouse.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

@@ -21,6 +21,6 @@
   ],
   
   "breakDropOptions" : [
-    [ [ "beevolution_princessForest", 1, {} ], [ "beevolution_droneForest", 2, {} ] ]
+    [ [ "beevolution_princessForest", 1, {} ], [ "beevolution_droneForest", 1, {} ] ]
   ]
 }

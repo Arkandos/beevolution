@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_desertForest",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/desert/droneDesert.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Desert drone",
+  
+  "species1" : "desert",
+  "species2" : "desert"
+}

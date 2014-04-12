@@ -9,7 +9,7 @@
   "price" : 200,
   "objectType" : "container",
   "printable" : false,
-  "hydrophobic" : true,
+  "hydrophobic" : false,
 
   "apexDescription" : "[PLACEHOLDER] something something bees",
   "avianDescription" : "[PLACEHOLDER] something something bees",
@@ -69,7 +69,12 @@
       "range" : 8
     }
   ],
-  "scripts" : [ "/objects/beevolution/beehouse/beevolution_beehouse.lua" ],
+  "scripts" : [ 
+  "/objects/beevolution/beehouse/beevolution_beehouse.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  "/scripts/beevolution/beevolution_beeList.lua"
+  ],
+  
   "scriptDelta" : 5,
   "recipeGroup" : "beevolution_beehouse",
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
@@ -78,5 +83,5 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "learnBlueprintsOnPickup" : [ "beevolution_honeycomb", "beevolution_honeydrop", "beevolution_honeycandy" ]
+  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy", "beevolution_centrifuge", "beevolution_ultimateCheatItem" ]
 }

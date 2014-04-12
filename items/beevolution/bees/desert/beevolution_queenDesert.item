@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenDesert",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/desert/queenDesert.png",
+  "description" : "A queen of bees.",
+  "shortdescription" : "Desert Queen",
+  
+  "species1" : "desert",
+  "species2" : "desert"
+}

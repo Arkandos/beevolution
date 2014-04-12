@@ -1,0 +1,7 @@
+{
+  "itemName" : "beevolution_pollenNormal",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/pollens/pollenNormal.png",
+  "description" : "Pollen from who knows what",
+  "shortdescription" : "Normal pollen"
+}

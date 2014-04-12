@@ -1,0 +1,9 @@
+{
+  "itemName" : "beevolution_ultimateCheatItem",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/cheat/ultimateCheatItem.png",
+  "description" : "INFINITE COSMIC POWER",
+  "shortdescription" : "Ultimate Cheat Item",
+  
+  "learnBlueprintsOnPickup" : [ "beevolution_combHoney", "beevolution_combSandy", "beevolution_forestQueen", "beevolution_desertQueen" ]
+}

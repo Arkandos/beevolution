@@ -1,0 +1,44 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "centrifugeState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+          "active" : {
+            "frames" : 4,
+            "cycle" : 0.7,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "centrifuge" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "centrifugeState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.default"
+              }
+            },
+
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
