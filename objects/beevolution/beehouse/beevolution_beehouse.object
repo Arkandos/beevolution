@@ -72,7 +72,9 @@
   "scripts" : [ 
   "/objects/beevolution/beehouse/beevolution_beehouse.lua",
   "/scripts/beevolution/beevolution_machine.lua",
-  "/scripts/beevolution/beevolution_beeList.lua"
+  "/scripts/beevolution/beevolution_beeList.lua",
+  "/scripts/beevolution/beevolution_beeMachine.lua",
+  "/scripts/beevolution/beevolution_breed.lua"
   ],
   
   "scriptDelta" : 5,

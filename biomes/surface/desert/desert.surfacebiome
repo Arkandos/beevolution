@@ -12,7 +12,7 @@
 		"type" : "object",
 		"objectSets" : [
 	      {
-		    "pool" : [ [0.35, "beevolution_beehiveForest"] ],
+		    "pool" : [ [0.35, "beevolution_beehiveDesert"] ],
 		    "parameters" : {}
 		  }
 	    ]

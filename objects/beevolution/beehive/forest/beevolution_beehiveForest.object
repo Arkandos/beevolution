@@ -1,0 +1,26 @@
+{
+  "objectName" : "beevolution_beehiveForest",
+  "rarity": "Common",
+  "category" : "beehive",
+  
+  "description" : "Buzz buzz",
+  "shortdescription" : "Forest beehive",
+  "race" : "generic", 
+  
+  "inventoryIcon" : "/objects/beevolution/beehive/beehive.png",
+  "orientations" : [
+    {
+	  "image" : "/objects/beevolution/beehive/beehive.png:<color>",
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.5,
+	  
+	  "spaceScan" : 0.1,
+	  "anchors" : ["bottom"]
+	}
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "beevolution_princessForest", 1, {} ], [ "beevolution_droneForest", 1, {} ] ]
+  ]
+}

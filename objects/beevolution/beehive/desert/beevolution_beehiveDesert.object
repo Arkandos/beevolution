@@ -1,16 +1,16 @@
 {
-  "objectName" : "beevolution_beehive",
+  "objectName" : "beevolution_beehiveDesert",
   "rarity": "Common",
   "category" : "beehive",
   
   "description" : "Buzz buzz",
-  "shortdescription" : "Beehive",
+  "shortdescription" : "Desert beehive",
   "race" : "generic", 
   
-  "inventoryIcon" : "beehive.png",
+  "inventoryIcon" : "beehiveDesert.png",
   "orientations" : [
     {
-	  "image" : "beehive.png:<color>",
+	  "image" : "beehiveDesert.png:<color>",
 	  "imagePosition" : [0, 0],
 	  "frames" : 1,
 	  "animationCycle" : 0.5,
@@ -21,6 +21,6 @@
   ],
   
   "breakDropOptions" : [
-    [ [ "beevolution_princessForest", 1, {} ], [ "beevolution_droneForest", 1, {} ] ]
+    [ [ "beevolution_princessDesert", 1, {} ], [ "beevolution_droneDesert", 1, {} ] ]
   ]
 }
