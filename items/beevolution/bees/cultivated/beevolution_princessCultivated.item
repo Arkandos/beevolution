@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessCultivated",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/Cultivated/princessCultivated.png",
+  "description" : "A bee princess. Still dreaming about becoming queen over the sandpeople",
+  "shortdescription" : "Cultivated princess",
+  
+  "species1" : "Cultivated",
+  "species2" : "Cultivated"
+}

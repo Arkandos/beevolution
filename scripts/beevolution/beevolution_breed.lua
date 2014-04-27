@@ -22,16 +22,16 @@ function breed.getType( itemName )
 end
 
 function breed.getSpecies( beeName )
-	local queen, qStop = string.find(beename, "queen")
-	local princess, pStop = string.find(beename, "princess")
-	local drone, dStop = string.find(beename, "drone")
+	local queen, qStop = string.find(beeName, "queen")
+	local princess, pStop = string.find(beeName, "princess")
+	local drone, dStop = string.find(beeName, "drone")
 	
 	if queen ~= nil then
-		return string.sub(beename, qStop + 1)
+		return string.sub(beeName, qStop + 1)
 	elseif princess ~= nil then
-		return string.sub(beename, pStop + 1)
+		return string.sub(beeName, pStop + 1)
 	elseif drone ~= nil then
-		return string.sub(beename, dStop + 1)
+		return string.sub(beeName, dStop + 1)
 	end
 
 end
@@ -63,6 +63,13 @@ function breed.breed( princess, drone, multiplier )
 			end
 		end
 	end
+	
+	local n = math.random(1, 2)
+	if n == 1 then
+		breed.spawnQueen(pSpecies)
+	else
+		breed.spawnQueen(dSpecies)
+	end
 end
 
 -- Spawn 1 princess and (fertility) drones
@@ -71,8 +78,8 @@ function breed.spawnOffspring(queen, fertility)
 		fertility = 2
 	end
 	
-	local princess = "beevolution_princess"..getSpecies(queen)
-	local drone = "beevolution_drone"..getSpecies(queen)
+	local princess = "beevolution_princess"..breed.getSpecies(queen)
+	local drone = "beevolution_drone"..breed.getSpecies(queen)
 	
 	if world.containerItemsCanFit(entity.id(), { name = princess, count = 1, data = {} }) and world.containerItemsCanFit(entity.id(), { name = drone, count = fertility, data = {} }) then
 		machine.produceItem(princess, 1)
@@ -88,6 +95,8 @@ end
 function breed.spawnQueen( species )
 	if world.containerItemsCanFit(entity.id(), { name = "beevolution_queen"..species, count = 1, data = {} }) == 1 then
 		world.containerAddItems(entity.id(), { name = "beevolution_queen"..species, count = 1, data = {} })
+		machine.consumeItem(1, 1)
+		machine.consumeItem(2, 1)
 		return true
 	else
 		return false

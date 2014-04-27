@@ -7,7 +7,7 @@ beeList = {
 		produce = "beevolution_combHoney",
 		specialProduce = "beevolution_pollenNormal",
 		natural = true,
-		activity = day
+		activity = "day"
 	},
 	
 	Desert = {
@@ -18,7 +18,7 @@ beeList = {
 		produce = "beevolution_combSandy",
 		specialProduce = "beevolution_pollenNormal",
 		natural = true,
-		activity = day
+		activity = "day"
 	},
 	
 	Common = {
@@ -28,8 +28,8 @@ beeList = {
 		fertility = 2,
 		produce = "beevolution_combHoney",
 		specialProduce = "beevolution_pollenNormal",
-		natural = false
-		activity = day
+		natural = false,
+		activity = "day"
 	},
 	
 	Cultivated = {
@@ -40,7 +40,7 @@ beeList = {
 		produce = "beevolution_combHoney",
 		specialProduce = "beevolution_pollenNormal",
 		natural = false,
-		activity = day
+		activity = "day"
 	}
 }
 

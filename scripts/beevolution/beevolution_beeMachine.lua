@@ -2,13 +2,13 @@ beeMachine = {}
 local inventory = {}
 
 -- Should be called before every other function to properly update the inventory
-function updateInventory()
+function beeMachine.updateInventory()
 	inventory = world.containerItems(entity.id())
 	if inventory == nil then return false else return true end
 end
 
 function beeMachine.main( canBreed, args )
-	updateInventory()
+	beeMachine.updateInventory()
 	
 	if canBreed == nil then canBreed = true end
 	if args == nil then 
@@ -30,13 +30,11 @@ function beeMachine.main( canBreed, args )
 			-- If the princess and the drone is the same species, do not conduct breeding procedures
 			if breed.getSpecies(inventory[1].name) == breed.getSpecies(inventory[2].name) then
 				if breed.spawnQueen( breed.getSpecies(inventory[1].name) ) then
-					machine.consumeItem(1, 1)
-					machine.consumeItem(2, 1)
 					return
 				end
 			else
 				if canBreed then
-					breed.breed(breed.getSpecies(inventory[1].name), breed.getSpecies(inventory[2].name), breedMultiplier)
+					breed.breed(inventory[1].name, inventory[2].name, breedMultiplier)
 				end
 			end
 		end		
@@ -82,7 +80,7 @@ function beeMachine.main( canBreed, args )
 				machine.produceItem(beeList[species].specialProduce, math.floor(math.random(beeList[species].specialProductivity.min, beeList[species].specialProductivity.max) * productionMultiplier ))
 			end
 		elseif storage.timer < 10 then
-			if spawnOffSpring(inventory[1].name, beeList[species].fertility) then
+			if breed.spawnOffspring(inventory[1].name, beeList[species].fertility) then
 				storage.timer = 0
 			else
 				storage.timer = 10

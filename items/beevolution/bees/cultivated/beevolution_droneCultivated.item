@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_droneCultivated",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/Cultivated/droneCultivated.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Cultivated drone",
+  
+  "species1" : "Cultivated",
+  "species2" : "Cultivated"
+}

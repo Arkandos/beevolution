@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenCultivated",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/Cultivated/queenCultivated.png",
+  "description" : "A queen of bees.",
+  "shortdescription" : "Cultivated Queen",
+  
+  "species1" : "Cultivated",
+  "species2" : "Cultivated"
+}

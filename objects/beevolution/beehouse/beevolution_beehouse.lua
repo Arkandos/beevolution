@@ -2,10 +2,6 @@ function init(virtual)
 	
 	if vitual then return end
 	
-	if storage.timer == nil then
-		storage.timer = 300
-	end
-	
 	-- Check if the beehouse is above ground
 	if not isAboveGround() then
 		return { "ShowPopup", { message = "The little bees need a clear line of sight of the sky!"} }

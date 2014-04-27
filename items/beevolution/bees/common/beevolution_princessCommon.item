@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessCommon",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/Common/princessCommon.png",
+  "description" : "A bee princess. Still dreaming about becoming queen over the sandpeople",
+  "shortdescription" : "Common princess",
+  
+  "species1" : "Common",
+  "species2" : "Common"
+}
