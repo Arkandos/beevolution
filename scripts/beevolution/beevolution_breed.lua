@@ -54,6 +54,7 @@ function breed.breed( princess, drone, multiplier )
 	for child, param in pairs(beeBranches) do
 		if param.species1 == pSpecies or param.species1 == dSpecies or param.species1 == "natural" and n == true then	
 			if param.species2 == pSpecies or param.species2 == dSpecies or param.species2 == "natural" and n == true then
+				math.randomseed( os.time() )
 				local c = math.random(0, 100)
 				
 				if c <= ( param.chance * multiplier ) then

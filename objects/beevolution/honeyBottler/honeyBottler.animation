@@ -1,0 +1,117 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "honeyBottler" : {
+        "default" : "empty",
+        "states" : {
+          "empty" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+          "fill1" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+		  "fill2" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+		  "fill3" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+		  "fill4" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+		  "fill5" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          }
+        }
+      },
+	  "jar" : {
+		"default" : "invisible",
+		"states" : {
+			"empty" : {
+				"frames" : 1,
+				"cycle" : 0.15		
+			},
+			"invisible" : {
+				"frames" : 0,
+				"cycle" : 0.15		
+			}
+		}
+	  }
+    },
+
+    "parts" : {
+      "honeyBottler" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "honeyBottler" : {
+            "empty" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+
+            "fill1" : {
+              "properties" : {
+                "image" : "<partImage>:fill1"
+              }
+            },
+			"fill2" : {
+              "properties" : {
+                "image" : "<partImage>:fill2"
+              }
+            },
+			"fill3" : {
+              "properties" : {
+                "image" : "<partImage>:fill3"
+              }
+            },
+			"fill4" : {
+              "properties" : {
+                "image" : "<partImage>:fill4"
+              }
+            },
+			"fill5" : {
+              "properties" : {
+                "image" : "<partImage>:fill5"
+              }
+            }
+          }
+        }
+      },
+	  "jar" : {
+        "properties" : {
+          "centered" : false,
+		  "offset" : [1.75, 1.6],
+		  "zLevel" : 2
+        },
+
+        "partStates" : {
+          "jar" : {
+            "empty" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+			"invisible" : {
+              "properties" : {
+                "image" : ""
+              }
+            }
+          }
+        }
+      }
+	  
+	  
+	  
+    }
+  }
+}

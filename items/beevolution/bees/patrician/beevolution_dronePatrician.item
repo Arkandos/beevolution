@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_dronePatrician",
+  "rarity" : "Common",
+  "inventoryIcon" : "dronePatrician.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Patrician drone",
+  
+  "species1" : "Patrician",
+  "species2" : "Patrician"
+}

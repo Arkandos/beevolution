@@ -9,8 +9,8 @@
             "cycle" : 0.15
           },
           "active" : {
-            "frames" : 4,
-            "cycle" : 0.7,
+            "frames" : 3,
+            "cycle" : 0.5,
             "mode" : "loop"
           }
         }

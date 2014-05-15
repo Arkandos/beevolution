@@ -32,6 +32,7 @@ function main()
 		storage.timer = -1
 		storage.output = {}
 		storage.processing = false
+		entity.setAnimationState("centrifugeState", "idle")
 	end
 	
 	-- Refuel the machine if the fuellevel is low
@@ -51,6 +52,7 @@ function main()
 			storage.timer = machineList["centrifuge"][inputItem].time
 			storage.output = {}
 			storage.processing = true
+			entity.setAnimationState("centrifugeState", "active")
 			
 			for k, v in pairs(machineList["centrifuge"][inputItem].output) do
 				local c = math.random(0, 100)

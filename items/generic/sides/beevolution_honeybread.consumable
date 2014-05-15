@@ -1,0 +1,22 @@
+{
+  "itemName" : "beevolution_honeybread",
+  "rarity" : "Common",
+  "inventoryIcon" : "honeybread.png",
+  "description" : "Dipped in delicious honey!.",
+  "shortdescription" : "Honeyed bread",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 80
+      },
+      {
+        "kind" : "health",
+        "amount" : 20
+      },
+      {
+        "kind" : "energy",
+        "amount" : 20
+      }
+    ] ]
+}

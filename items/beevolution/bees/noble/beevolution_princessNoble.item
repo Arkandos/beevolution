@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessNoble",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessNoble.png",
+  "description" : "A very posh bee princess. Born with massive riches",
+  "shortdescription" : "Noble princess",
+  
+  "species1" : "Noble",
+  "species2" : "Noble"
+}

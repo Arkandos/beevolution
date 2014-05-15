@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenHardworking",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenHardworking.png",
+  "description" : "A queen of bees. Works hard all day long",
+  "shortdescription" : "Hardworking Queen",
+  
+  "species1" : "Hardworking",
+  "species2" : "Hardworking"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessPatrician",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessPatrician.png",
+  "description" : "A quite posh bee princess.",
+  "shortdescription" : "Patrician princess",
+  
+  "species1" : "Patrician",
+  "species2" : "Patrician"
+}

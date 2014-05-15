@@ -1,8 +1,8 @@
 {
   "objectName" : "beevolution_centrifuge",
   "rarity" : "Common",
-  "description" : "A centrifuge. which uses the power of gravity!.",
-  "shortdescription" : "Modern centrifuge",
+  "description" : "A centrifuge. Uses the power of gravity!.",
+  "shortdescription" : "Simple centrifuge",
   "race" : "generic",
   "subtitle" : "Centrifugating.",
   "category" : "centrifuge",
@@ -11,7 +11,7 @@
   "printable" : false,
   "hydrophobic" : false,
 
-  "inventoryIcon" : "beehouseicon.png",
+  "inventoryIcon" : "centrifugeIcon.png",
   "orientations" : [
     {
       "dualImage" : "centrifuge.png:<color>.<frame>",
@@ -25,6 +25,11 @@
 
     }
   ],
+  
+  "animation" : "/objects/beevolution/centrifuge/centrifuge.animation",
+  "animationParts" : {
+	"centrifuge" : "centrifuge.png"
+  },
 
   "soundEffect" : "/sfx/objects/campfire.wav",
 
@@ -45,8 +50,10 @@
   "recipeGroup" : "beevolution_centrifuge",
   "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
   "slotCount" : 18,
-  "uiConfig" : "/interface/beevolution/beevolution_beehouse.config",
+  "uiConfig" : "/interface/beevolution/beevolution_machine.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  
+   "learnBlueprintsOnPickup" : [ "beevolution_sturdyCentrifuge" ]
 
 }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bread", "count" : 1 },
+	{ "item" : "beevolution_jarHoney", "count" : 1}
+  ],
+  "output" : { "item" : "beevolution_honeybread", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "sides" ]
+}

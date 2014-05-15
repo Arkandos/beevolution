@@ -1,0 +1,44 @@
+{
+  "objectName" : "beevolution_apiaryNormal",
+  "rarity" : "Common",
+  "description" : "An apiary, can breed bees. Is not as efficient as a beehouse",
+  "shortdescription" : "Apiary",
+  "race" : "generic",
+  "subtitle" : "Good ol' beekeeping.",
+  "category" : "apiary",
+  "price" : 500,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+  "inventoryIcon" : "apiaryNormalIcon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apiaryNormal.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ 
+  "/objects/beevolution/apiaryNormal/beevolution_apiaryNormal.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  "/scripts/beevolution/beevolution_beeList.lua",
+  "/scripts/beevolution/beevolution_beeMachine.lua",
+  "/scripts/beevolution/beevolution_breed.lua"
+  ],
+  
+  "scriptDelta" : 5,
+  "recipeGroup" : "beevolution_apiary",
+  "slotCount" : 18,
+  "uiConfig" : "/interface/beevolution/beevolution_beehouse.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy" ]
+}

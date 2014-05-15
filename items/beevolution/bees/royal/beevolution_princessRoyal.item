@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessRoyal",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessRoyal.png",
+  "description" : "A royal princess. Enjoys having her own court",
+  "shortdescription" : "Royal princess",
+  
+  "species1" : "Royal",
+  "species2" : "Royal"
+}

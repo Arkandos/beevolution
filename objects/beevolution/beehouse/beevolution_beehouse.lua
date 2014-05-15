@@ -11,7 +11,7 @@ end
 
 
 function main()
-	beeMachine.main(true, {productionMultiplier = 1, breedMultiplier = 1})
+	beeMachine.main(false, {productionMultiplier = 1, breedMultiplier = 1})
 end
 
 function isAboveGround()

@@ -69,8 +69,8 @@ function beeMachine.main( canBreed, args )
 		
 		-- If the timer is 10, produce items and spawn offspring
 		if storage.timer == 10 then
-			local productChance = math.random(0, 100)
-			local specialChance = math.random(0, 100)
+			local productChance = math.random(100)
+			local specialChance = math.random(100)
 			
 			if beeList[species].productivity.chance <= productChance then
 				machine.produceItem(beeList[species].produce, math.floor(math.random(beeList[species].productivity.min, beeList[species].productivity.max) * productionMultiplier ))

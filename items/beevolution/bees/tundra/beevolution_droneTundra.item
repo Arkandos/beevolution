@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_droneTundra",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/tundra/droneTundra.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Tundra drone",
+  
+  "species1" : "Tundra",
+  "species2" : "Tundra"
+}

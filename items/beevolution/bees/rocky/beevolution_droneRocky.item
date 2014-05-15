@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_droneRocky",
+  "rarity" : "Common",
+  "inventoryIcon" : "droneRocky.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Rocky drone",
+  
+  "species1" : "Rocky",
+  "species2" : "Rocky"
+}

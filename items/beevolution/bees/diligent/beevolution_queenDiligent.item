@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenDiligent",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenDiligent.png",
+  "description" : "A queen of bees.",
+  "shortdescription" : "Diligent Queen",
+  
+  "species1" : "Diligent",
+  "species2" : "Diligent"
+}

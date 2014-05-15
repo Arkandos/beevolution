@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenPatrician",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenPatrician.png",
+  "description" : "A posh queen of bees. Getting quite fond of spices and books",
+  "shortdescription" : "Patrician Queen",
+  
+  "species1" : "Patrician",
+  "species2" : "Patrician"
+}

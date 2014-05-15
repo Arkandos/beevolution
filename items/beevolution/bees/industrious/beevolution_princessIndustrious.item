@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessIndustrious",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessIndustrious.png",
+  "description" : "A bee princess. Loves to work in factories",
+  "shortdescription" : "Industrious princess",
+  
+  "species1" : "Industrious",
+  "species2" : "Industrious"
+}

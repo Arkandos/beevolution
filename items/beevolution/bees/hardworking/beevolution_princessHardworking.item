@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessHardworking",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessHardworking.png",
+  "description" : "A bee princess. Not afraid to get her hands dirty",
+  "shortdescription" : "Hardworking princess",
+  
+  "species1" : "Hardworking",
+  "species2" : "Hardworking"
+}

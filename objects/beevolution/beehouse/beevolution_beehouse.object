@@ -1,7 +1,7 @@
 {
   "objectName" : "beevolution_beehouse",
   "rarity" : "Common",
-  "description" : "A beehouse, useful for beekeeping.",
+  "description" : "A beehouse, useful for beekeeping. Cannot breed bees.",
   "shortdescription" : "Beehouse",
   "race" : "generic",
   "subtitle" : "Good ol' beekeeping.",
@@ -85,5 +85,5 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy", "beevolution_centrifuge", "beevolution_ultimateCheatItem" ]
+  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy", "beevolution_centrifuge", "beevolution_apiaryNormal", "beevolution_honeyBottler", "beevolution_jarEmpty", "beevolution_ultimateCheatItem" ]
 }

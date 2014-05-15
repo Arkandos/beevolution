@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenNoble",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenNoble.png",
+  "description" : "A very posh queen of bees. Refuses to even look at the riff raff",
+  "shortdescription" : "Noble Queen",
+  
+  "species1" : "Noble",
+  "species2" : "Noble"
+}

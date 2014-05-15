@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenIndustrious",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenIndustrious.png",
+  "description" : "A queen of bees. Building her own factory",
+  "shortdescription" : "Industrious Queen",
+  
+  "species1" : "Industrious",
+  "species2" : "Industrious"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessTundra",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/tundra/princessTundra.png",
+  "description" : "A bee princess. Longing to get her own piece of ice",
+  "shortdescription" : "Tundra princess",
+  
+  "species1" : "Tundra",
+  "species2" : "Tundra"
+}

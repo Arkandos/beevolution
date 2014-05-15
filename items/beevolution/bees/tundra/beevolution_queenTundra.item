@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenTundra",
+  "rarity" : "Common",
+  "inventoryIcon" : "/items/beevolution/bees/tundra/queenTundra.png",
+  "description" : "A tough queen of bees.",
+  "shortdescription" : "Tundra Queen",
+  
+  "species1" : "Tundra",
+  "species2" : "Tundra"
+}

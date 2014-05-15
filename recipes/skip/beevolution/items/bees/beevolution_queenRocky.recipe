@@ -4,8 +4,8 @@
 	
   ],
   "output" : {
-	"item" : "beevolution_combSandy",
-	"count" : 100
+	"item" : "beevolution_queenRocky",
+	"count" : 1
   },
   "groups" : ["skip"]
 }

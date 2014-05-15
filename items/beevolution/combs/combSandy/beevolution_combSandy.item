@@ -1,7 +1,7 @@
 {
   "itemName" : "beevolution_combSandy",
   "rarity" : "Common",
-  "inventoryIcon" : "/items/beevolution/combs/genericComb.png",
+  "inventoryIcon" : "/items/beevolution/combs/combSandy/combSandy.png",
   "description" : "Contains sand and honey. Mostly sand.",
   "shortdescription" : "Sandy comb"
 }

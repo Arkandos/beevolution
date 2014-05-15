@@ -1,0 +1,59 @@
+{
+  "objectName" : "beevolution_honeyBottler",
+  "rarity" : "Common",
+  "description" : "A honey bottler. Drip drop",
+  "shortdescription" : "Simple honey bottling station",
+  "race" : "generic",
+  "subtitle" : "Bottling",
+  "category" : "honeyBottler",
+  "price" : 600,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "honeyBottlerIcon.png",
+  "orientations" : [
+    {
+      "dualImage" : "honeyBottler.png:empty",
+
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "animation" : "/objects/beevolution/honeyBottler/honeyBottler.animation",
+  "animationParts" : {
+	"honeyBottler" : "honeyBottler.png",
+	"jar" : "honeyjar.png"
+  },
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+  "scripts" : [ 
+  "/objects/beevolution/honeyBottler/honeyBottler.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  "/scripts/beevolution/beevolution_machineList.lua"
+  ],
+  
+  "scriptDelta" : 20,
+  "recipeGroup" : "beevolution_honeyBottler",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 18,
+  "uiConfig" : "/interface/beevolution/beevolution_honeyBottler.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+  
+
+}

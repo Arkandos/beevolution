@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessRocky",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessRocky.png",
+  "description" : "A bee princess. Wishes to one day see daylight",
+  "shortdescription" : "Rocky princess",
+  
+  "species1" : "Rocky",
+  "species2" : "Rocky"
+}

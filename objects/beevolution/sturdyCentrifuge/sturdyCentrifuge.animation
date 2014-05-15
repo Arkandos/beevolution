@@ -1,0 +1,93 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "centrifugeState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+          "active" : {
+            "frames" : 3,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      },
+	  "fuelMeter" : {
+		"default" : "red",
+		"states" : {
+			"red" : {
+				"frames" : 1,
+				"cycle" : 0.15
+			
+			},
+			"yellow" : {
+				"frames" : 1,
+				"cycle" : 0.15
+			},
+			"green" : {
+				"frames" : 1,
+				"cycle" : 0.15
+			}
+		}
+	  }
+    },
+
+    "parts" : {
+      "centrifuge" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "centrifugeState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.default"
+              }
+            },
+
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      },
+	  "meter" : {
+        "properties" : {
+          "centered" : false,
+		  "offset" : [0.5, 0.2],
+		  "zLevel" : 2
+        },
+
+        "partStates" : {
+          "fuelMeter" : {
+            "red" : {
+              "properties" : {
+                "image" : "<partImage>:red"
+              }
+            },
+
+            "yellow" : {
+              "properties" : {
+                "image" : "<partImage>:yellow"
+              }
+            },
+			"green" : {
+              "properties" : {
+                "image" : "<partImage>:green"
+              }
+            }
+          }
+        }
+      }
+	  
+	  
+	  
+    }
+  }
+}

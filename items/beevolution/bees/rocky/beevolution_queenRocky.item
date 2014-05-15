@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenRocky",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenRocky.png",
+  "description" : "A tough queen of bees. Crushes stone with a flap of her wings",
+  "shortdescription" : "Rocky Queen",
+  
+  "species1" : "Rocky",
+  "species2" : "Rocky"
+}

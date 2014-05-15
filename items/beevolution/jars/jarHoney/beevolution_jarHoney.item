@@ -1,0 +1,9 @@
+{
+  "itemName" : "beevolution_jarHoney",
+  "rarity" : "Common",
+  "inventoryIcon" : "jarHoney.png",
+  "description" : "Glassjar filled with delicious honey!",
+  "shortdescription" : "Empty jar",
+  
+  "learnBlueprintsOnPickup" : [ "beevolution_honeybread" ]
+}

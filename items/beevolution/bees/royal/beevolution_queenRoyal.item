@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenRoyal",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenRoyal.png",
+  "description" : "A royal queen. Rules her country with firm hands",
+  "shortdescription" : "Royal Queen",
+  
+  "species1" : "Royal",
+  "species2" : "Royal"
+}

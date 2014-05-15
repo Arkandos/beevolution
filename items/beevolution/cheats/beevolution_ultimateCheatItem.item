@@ -5,5 +5,5 @@
   "description" : "INFINITE COSMIC POWER",
   "shortdescription" : "Ultimate Cheat Item",
   
-  "learnBlueprintsOnPickup" : [ "beevolution_combHoney", "beevolution_combSandy", "beevolution_queenForest", "beevolution_queenDesert" ]
+  "learnBlueprintsOnPickup" : [ "beevolution_combHoney", "beevolution_queenForest", "beevolution_queenDesert", "beevolution_queenChilled", "beevolution_queenRocky" ]
 }

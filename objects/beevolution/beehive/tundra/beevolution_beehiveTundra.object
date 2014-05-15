@@ -1,0 +1,26 @@
+{
+  "objectName" : "beevolution_beehiveTundra",
+  "rarity": "Common",
+  "category" : "beehive",
+  
+  "description" : "Buzz buzz",
+  "shortdescription" : "Tundra beehive",
+  "race" : "generic", 
+  
+  "inventoryIcon" : "/objects/beevolution/beehive/tundra/beehiveTundra.png",
+  "orientations" : [
+    {
+	  "image" : "/objects/beevolution/beehive/tundra/beehiveTundra.png:<color>",
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.5,
+	  
+	  "spaceScan" : 0.1,
+	  "anchors" : ["bottom"]
+	}
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "beevolution_princessTundra", 1, {} ], [ "beevolution_droneTundra", 1, {} ] ]
+  ]
+}

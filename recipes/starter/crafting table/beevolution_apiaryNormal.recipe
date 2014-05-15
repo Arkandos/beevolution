@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 50 },
+	{ "item" : "money", "count": 400 },
+	{ "item" : "beevolution_waxNormal", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "beevolution_apiaryNormal",
+	"count": 1
+  },
+  "groups" : [ "craftingtable", "objects", "all" ]
+}
