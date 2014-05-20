@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenHardened",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenHardened.png",
+  "description" : "A tough queen of bees. Chews granite for breakfast",
+  "shortdescription" : "Hardened Queen",
+  
+  "species1" : "Hardened",
+  "species2" : "Hardened"
+}

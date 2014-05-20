@@ -34,7 +34,7 @@
   ],
   
   "scriptDelta" : 5,
-  "recipeGroup" : "beevolution_apiary",
+  "recipeGroup" : "beevolution_apiaryNormal",
   "slotCount" : 18,
   "uiConfig" : "/interface/beevolution/beevolution_beehouse.config",
   "frameCooldown" : 67,

@@ -34,7 +34,8 @@ end
 
 -- Consume fuelItem to refuel
 function machine.refuel(slot, amount)
-
+	machine.updateInventory()
+	
 	if amount == nil then
 		amount = 1
 	end
@@ -42,6 +43,8 @@ function machine.refuel(slot, amount)
 	if slot == nil then
 		slot = 1
 	end
+	
+	if inventory[slot] == nil then return false end
 	
 	if machine.updateInventory() then
 		for k, v in pairs(fuelList) do
@@ -68,9 +71,13 @@ end
 function machine.consumeFuel(amount, skip)
 	if storage.fuel >= amount then
 		storage.fuel = storage.fuel - amount
+		return true
 	elseif skip then
 		storage.fuel = 0
+		return true
 	end
+	
+	return false
 end
 
 function machine.setFuel(amount)
@@ -78,5 +85,6 @@ function machine.setFuel(amount)
 end
 
 function machine.getFuelLevel()
+	if storage.fuel == nil then storage.fuel = 0 end
 	return storage.fuel
 end

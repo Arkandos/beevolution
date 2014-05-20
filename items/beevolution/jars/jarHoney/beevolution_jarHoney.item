@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "jarHoney.png",
   "description" : "Glassjar filled with delicious honey!",
-  "shortdescription" : "Empty jar",
+  "shortdescription" : "Honey jar",
   
   "learnBlueprintsOnPickup" : [ "beevolution_honeybread" ]
 }

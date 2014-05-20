@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenCoal",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenCoal.png",
+  "description" : "A queen of bees. Tired of all the soot",
+  "shortdescription" : "Coal Queen",
+  
+  "species1" : "Coal",
+  "species2" : "Coal"
+}

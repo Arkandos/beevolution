@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_queenRockhard",
+  "rarity" : "Common",
+  "inventoryIcon" : "queenRockhard.png",
+  "description" : "A tough queen of bees. Can take quite the beating.",
+  "shortdescription" : "Rockhard Queen",
+  
+  "species1" : "Rockhard",
+  "species2" : "Rockhard"
+}

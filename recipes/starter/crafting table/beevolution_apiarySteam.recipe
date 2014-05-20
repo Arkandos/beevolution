@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 50,
+	  "item" : "copperbar", "count" : 10,
+	  "item" : "beevolution_waxNormal", "count" : 30
+	}
+  ],
+  "output" : {
+    "item" : "beevolution_apiarySteam",
+	"count": 1
+  },
+  "groups" : [ "craftingtable", "objects", "all" ]
+}

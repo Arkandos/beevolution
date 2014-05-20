@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_droneCoal",
+  "rarity" : "Common",
+  "inventoryIcon" : "droneCoal.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Coal drone",
+  
+  "species1" : "Coal",
+  "species2" : "Coal"
+}

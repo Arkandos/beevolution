@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessCoal",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessCoal.png",
+  "description" : "A princess of coal",
+  "shortdescription" : "Coal princess",
+  
+  "species1" : "Coal",
+  "species2" : "Coal"
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "beevolution_apiarySteam",
+  "rarity" : "Common",
+  "description" : "Powered by coal!",
+  "shortdescription" : "Steam apiary",
+  "race" : "generic",
+  "subtitle" : "Steampunk beekeeping.",
+  "category" : "apiarySteam",
+  "price" : 200,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+
+  "inventoryIcon" : "apiaryNormalIcon.png",
+  "orientations" : [
+    {
+      "dualImage" : "apiarySteam.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 11,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "animation" : "/objects/beevolution/apiarySteam/apiarySteam.animation",
+  "animationParts" : {
+    "apiary" : "apiarySteam.png"
+  },
+  
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+
+  "scripts" : [ 
+  "/objects/beevolution/apiarySteam/beevolution_apiarySteam.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  "/scripts/beevolution/beevolution_beeList.lua",
+  "/scripts/beevolution/beevolution_beeMachine.lua",
+  "/scripts/beevolution/beevolution_breed.lua"
+  ],
+  
+  "scriptDelta" : 5,
+  "recipeGroup" : "beevolution_apiarySteam",
+  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "slotCount" : 18,
+  "uiConfig" : "/interface/beevolution/beevolution_apiaryPowered.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

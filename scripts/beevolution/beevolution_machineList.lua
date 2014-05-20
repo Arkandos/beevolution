@@ -32,7 +32,7 @@ machineList = {
 		beevolution_combRocky = {
 			output = {
 				beevolution_dropHoney = { chance = 30, min = 1, max = 2 },
-				beevolution_waxNormal = { chance = 40, min = 1, max = 2 },
+				beevolution_waxNormal = { chance = 40, min = 1, max = 2 }
 			},
 			fuelCost = 6,
 			time = 15
@@ -42,10 +42,19 @@ machineList = {
 			output = {
 				beevolution_dropHoney = { chance = 30, min = 1, max = 2 },
 				beevolution_dropHoneydew = { chance = 45, min = 1, max = 3},
-				beevolution_waxNormal = { chance = 10, min = 1, max = 1 },
+				beevolution_waxNormal = { chance = 10, min = 1, max = 1 }
 			},
 			fuelCost = 6,
 			time = 15
+		},
+		
+		beevolution_combCoal = {
+			output = {
+				coalore = { chance = 40, min = 1, max = 2 },
+				coalore = { chance = 40, min = 1, max = 1 }
+			},
+			fuelCost = 6,
+			time = 20
 		}
 	},
 	honeyBottler = {

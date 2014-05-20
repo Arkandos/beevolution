@@ -58,6 +58,7 @@ function main()
 	if inventory[1] == nil then return end
 	local inputItem = inventory[1].name
 	
+	-- Processing items
 	if machineList["centrifuge"][inputItem] ~= nil and storage.processing == false then
 		local fuelCost = machineList["centrifuge"][inputItem].fuelCost
 		if storage.fuel >= fuelCost then

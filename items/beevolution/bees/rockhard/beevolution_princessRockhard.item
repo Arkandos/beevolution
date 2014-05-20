@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessRockhard",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessRockhard.png",
+  "description" : "A bee princess. Fights the queen daily",
+  "shortdescription" : "Rockhard princess",
+  
+  "species1" : "Rockhard",
+  "species2" : "Rockhard"
+}

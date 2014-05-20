@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_princessHardened",
+  "rarity" : "Common",
+  "inventoryIcon" : "princessHardened.png",
+  "description" : "A bee princess. Hides from the light",
+  "shortdescription" : "Hardened princess",
+  
+  "species1" : "Hardened",
+  "species2" : "Hardened"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "beevolution_droneRockhard",
+  "rarity" : "Common",
+  "inventoryIcon" : "droneRockhard.png",
+  "description" : "A bee drone",
+  "shortdescription" : "Rockhard drone",
+  
+  "species1" : "Rockhard",
+  "species2" : "Rockhard"
+}

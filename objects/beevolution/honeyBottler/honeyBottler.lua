@@ -68,6 +68,7 @@ function main()
 		
 	end
 	
+	-- Set the animationstate if a jar is available
 	if inventory[2]~= nil then
 		local honeyContainer = inventory[2].name
 		if honeyContainer == "beevolution_jarEmpty" then

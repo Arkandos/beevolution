@@ -16,7 +16,7 @@ beeList = {
 		lifeSpan = 600,
 		fertility = 2,
 		produce = "beevolution_combSandy",
-		specialProduce = "beevolution_pollenNormal",
+		specialProduce = "beevolution_waxNormal",
 		natural = true,
 		activity = "day"
 	},
@@ -38,29 +38,29 @@ beeList = {
 		lifeSpan = 600,
 		fertility = 1,
 		produce = "beevolution_combRocky",
-		specialProduce = "beevolution_pollenNormal",
+		specialProduce = "beevolution_waxNormal",
 		natural = true,
 		activity = "both"
 	},
 	
 	Common = {
 		productivity = { chance = 60, min = 1, max = 3 },
-		specialProductivity = { chance = 0, min = 0, max = 0 },
+		specialProductivity = { chance = 10, min = 1, max = 1 },
 		lifeSpan = 550,
 		fertility = 2,
 		produce = "beevolution_combHoney",
-		specialProduce = "beevolution_pollenNormal",
+		specialProduce = "beevolution_waxNormal",
 		natural = false,
 		activity = "day"
 	},
 	
 	Cultivated = {
 		productivity = { chance = 60, min = 1, max = 3},
-		specialProductivity = { chance = 0, min = 0, max = 0 },
+		specialProductivity = { chance = 10, min = 1, max = 1 },
 		lifeSpan = 600,
 		fertility = 2,
 		produce = "beevolution_combHoney",
-		specialProduce = "beevolution_pollenNormal",
+		specialProduce = "beevolution_waxNormal",
 		natural = false,
 		activity = "day"
 	},
@@ -124,6 +124,36 @@ beeList = {
 		specialProduce = "beevolution_pollenNormal",
 		natural = false,
 		activity = "day"
+	},
+	Hardened = {
+		productivity = { chance = 50, min = 1, max = 2},
+		specialProductivity = { chance = 10, min = 1, max = 1 },
+		lifeSpan = 600,
+		fertility = 1,
+		produce = "beevolution_combRocky",
+		specialProduce = "beevolution_waxNormal",
+		natural = false,
+		activity = "both"
+	},
+	Rockhard = {
+		productivity = { chance = 55, min = 1, max = 2},
+		specialProductivity = { chance = 10, min = 1, max = 1 },
+		lifeSpan = 600,
+		fertility = 1,
+		produce = "beevolution_combRocky",
+		specialProduce = "beevolution_waxNormal",
+		natural = false,
+		activity = "both"
+	},
+	Coal = {
+		productivity = { chance = 40, min = 1, max = 2},
+		specialProductivity = { chance = 15, min = 1, max = 1 },
+		lifeSpan = 600,
+		fertility = 1,
+		produce = "beevolution_combCoal",
+		specialProduce = "coalore",
+		natural = false,
+		activity = "both"
 	}
 }
 
@@ -167,5 +197,20 @@ beeBranches = {
 		species1 = "Diligent",
 		species2 = "Hardworking",
 		chance = 15
+	},
+	Hardened = {
+		species1 = "Rocky",
+		species2 = "Cultivated",
+		chance = 15
+	},
+	Rockhard = {
+		species1 = "Hardened",
+		species2 = "Rocky",
+		chance = 15
+	},
+	Coal = {
+		species1 = "Rockhard",
+		species2 = "Industrious",
+		chance = 10
 	}
 }

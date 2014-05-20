@@ -14,9 +14,17 @@ function beeMachine.main( canBreed, args )
 	if args == nil then 
 		productionMultiplier = 1 
 		breedMultiplier = 1
+		fuelConsumption = 0
 	else
 		productionMultiplier = args.productionMultiplier
 		breedMultiplier = args.breedMultiplier
+		
+		if args.fuelConsumption == nil then
+			fuelConsumption = 0
+		else
+			fuelConsumption = args.fuelConsumption
+			fuelSlot = args.fuelSlot
+		end
 	end
 	
 	-- If the inputslot is empty then return
@@ -51,10 +59,14 @@ function beeMachine.main( canBreed, args )
 		
 		-- Tick the timer if the bee is active during current time
 		if storage.timer > 0 then
+			if fuelConsumption > 0 then	
+				if not beeMachine.powered(fuelConsumption, fuelSlot) then return end
+			end
+			
 			if activity == "day" then
 				if day >= 0 and day < 0.5 then
 					storage.timer = storage.timer - 1
-					
+						
 				end
 			elseif activity == "night" then
 				if day >= 0.5 and day <= 1 then
@@ -63,6 +75,7 @@ function beeMachine.main( canBreed, args )
 			elseif activity == "both" then
 				storage.timer = storage.timer - 1
 			end
+			
 			
 			if storage.timer < 0 then storage.timer = 0 end
 		end
@@ -87,5 +100,27 @@ function beeMachine.main( canBreed, args )
 			end
 		end
 	end
+end
+
+function beeMachine.powered( amount, slot )
+	if amount == 0 then return true end
+	if storage.fuel == nil then storage.fuel = 0 end
+	
+	if storage.fuelTick == nil then storage.fuelTick = 0 end
+	
+	storage.fuelTick = storage.fuelTick + 1
+	
+	if storage.fuelTick >= 100 then 
+		if storage.fuel >= amount then
+			machine.consumeFuel( amount )
+			storage.fuelTick = 0
+			return true
+		else
+			if machine.refuel( slot, amount ) then return true end
+		end
+	
+	end
+	
+	return true
 end
 
