@@ -85,5 +85,5 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy", "beevolution_centrifuge", "beevolution_apiaryNormal", "beevolution_honeyBottler", "beevolution_jarEmpty", "beevolution_ultimateCheatItem", "beevolution_apiarySteam" ]
+  "learnBlueprintsOnPickup" : [ "beevolution_honeycandy", "beevolution_centrifuge", "beevolution_apiaryNormal", "beevolution_honeyBottler", "beevolution_jarEmpty", "beevolution_ultimateCheatItem", "beevolution_apiarySteam", "beevolution_mutator" ]
 }

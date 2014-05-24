@@ -1,0 +1,45 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "mutatorState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+          "active" : {
+            "frames" : 7,
+            "cycle" : 1.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "mutator" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "mutatorState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.default"
+              }
+            },
+
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+	  
+	  
+    }
+  }
+}

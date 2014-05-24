@@ -1,19 +1,3 @@
-function init(virtual)
-	
-	if vitual then return end
-	
-	-- Check if the beehouse is above ground
-	if not isAboveGround() then
-		return { "ShowPopup", { message = "The little bees need a clear line of sight of the sky!"} }
-	end
-	
-end
-
-
-function main()
-	beeMachine.main(false, {productionMultiplier = 1, breedMultiplier = 1})
-end
-
 function isAboveGround()
 	if world.underground(entity.position()) then
 		return false
@@ -30,3 +14,20 @@ function isAboveGround()
   
 	return not world.rectCollision(bounds, true)
 end
+
+function init(virtual)
+	
+	if vitual then return end
+	
+	-- Check if the beehouse is above ground
+	if not isAboveGround() then
+		return { "ShowPopup", { message = "The little bees need a clear line of sight of the sky!"} }
+	end
+	
+end
+
+
+function main()
+	beeMachine.main(false, {productionMultiplier = 1, breedMultiplier = 1})
+end
+
