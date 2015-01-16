@@ -1,0 +1,110 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "radiationDisperserState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+          "active" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+	"pipeLeft" : {
+	  "default" : "invisible",
+	  "states" : {
+	     "invisible" : {
+			"frames" : 0
+		 },
+	  "visible" : {
+		    "frames" : 1
+	     } 
+	  }
+	},
+	"pipeRight" : {
+	  "default" : "invisible",
+	  "states" : {
+	     "invisible" : {
+			"frames" : 0
+		 },
+	  "visible" : {
+		    "frames" : 1
+	     } 
+	  }
+	},
+
+    "parts" : {
+      "radiationDisperser" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "radiationDisperserState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.default"
+              }
+            },
+
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active"
+              }
+            }
+          }
+        }
+      },
+	  "pipeLeft" : {
+	     "properties" : {
+		    "centered" : false,
+			"offset" : [ 0, 0.5 ],
+			"zLevel" : 2
+		 },
+		 
+		 "partStates" : {
+		   "pipeLeft" : {
+		      "invisible" : {
+			    "properties" : {
+				   "image" : ""
+				}
+			  },
+			  
+			  "visible" : {
+			    "properties" : {
+				   "image" : "<partImage>:default.default"
+				}
+			  }
+		   }
+		 },
+		 "pipeRight" : {
+	     "properties" : {
+		    "centered" : false,
+			"offset" : [ 1.5, 0.5 ],
+			"zLevel" : 2
+		 },
+		 
+		 "partStates" : {
+		   "pipeRight" : {
+		      "invisible" : {
+			    "properties" : {
+				   "image" : ""
+				}
+			  },
+			  
+			  "visible" : {
+			    "properties" : {
+				   "image" : "<partImage>:default.default"
+				}
+			  }
+		   }
+		 }
+	  }
+	  
+	  
+    }
+  }
+}

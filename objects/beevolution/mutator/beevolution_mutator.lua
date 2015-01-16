@@ -14,6 +14,14 @@ local function updateInventory()
 	if inventory == nil then return false else return true end
 end
 
+function addRadiation( amount )
+	storage.fuel = storage.fuel + amount
+end
+
+function getRadiation()
+	return storage.fuel
+end
+
 function main()
 	updateInventory()
 	

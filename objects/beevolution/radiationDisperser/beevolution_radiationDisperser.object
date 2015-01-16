@@ -1,0 +1,60 @@
+{
+  "objectName" : "beevolution_radiationDisperser",
+  "rarity" : "Common",
+  "description" : "Exchanges radiation with adjacent mutators, effectivly doubling radiation extracted.",
+  "shortdescription" : "Radiation disperser",
+  "race" : "generic",
+  "subtitle" : "Radiator",
+  "category" : "radiationDisperser",
+  "price" : 200,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+
+
+  "inventoryIcon" : "radiationDisperserIcon.png",
+  "orientations" : [
+    {
+      "dualImage" : "radiationDisperser.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+  
+  "animation" : "/objects/beevolution/radiationDisperser/radiationDisperser.animation",
+  "animationParts" : {
+    "radiationDisperser" : "radiationDisperser.png",
+	"pipeLeft" : "pipeLeft.png",
+	"pipeRight" : "pipeRight.png"
+  },
+  
+  "soundEffect" : "/sfx/objects/campfire.wav",
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 70,
+      "range" : 8
+    }
+  ],
+
+  "scripts" : [ 
+  "/objects/beevolution/radiationDisperser/beevolution_radiationDisperser.lua",
+  "/scripts/beevolution/beevolution_machine.lua",
+  ],
+  
+  "scriptDelta" : 5,
+  "recipeGroup" : "beevolution_radiationDisperser",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/beevolution/beevolution_2slotMachine.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
